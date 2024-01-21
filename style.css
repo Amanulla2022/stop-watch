@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(180, 159, 39);
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(207, 68, 68);
+}
+
+button {
+  background-color: aqua;
+  color: blueviolet;
+  border-radius: 3rem;
+  width: 5rem;
+  height: 2.5rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+button:focus {
+  opacity: 0.3;
+}
+
+button:nth-last-child(2) {
+  opacity: 1;
+}
+
+#lapTimes {
+  width: 30%;
+  color: blueviolet;
+}
